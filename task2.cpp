@@ -25,7 +25,7 @@ public:
         Days[4] = "Thursday";
      Days[5] = "Friday";
         Days[6] = "Saturday";
-        CurrentDay = day % 7; \
+        CurrentDay = day % 7; 
     }
     string getCurrentDay() const {
         return Days[CurrentDay];
